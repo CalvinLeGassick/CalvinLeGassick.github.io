@@ -1,15 +1,94 @@
 <html>
     <head>
+        <link href="simple-grid.min.css" rel='stylesheet'>
         <link href="style.css" rel='stylesheet'>
         <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,400i,700,700i" rel="stylesheet">
         <script src="script.js"></script>
     </head>
     <body>
-        <div class="center">
-            <h1 class="in-progress">In progress.</h1>
-        </div>
-        <div class="center">
-            <div class="from-calvin">- Calvin<br>02/03/2017</div>
+        <div class="container">
+
+            <!-- BEGIN HEADER -->
+            <div class="im-calvin">
+                Hi, I'm Calvin.
+            </div>
+            <div class="goal">
+                I'm interested in figuring out how we can leverage technology to <strong>tackle wicked challenges</strong> and <strong>accelerate scientific progress</strong>.
+            </div>
+
+            <div class="row line"></div>
+            <div class="interests">
+                <div class="row interests">
+                    <!-- Technical -->
+                    <div class="bubble">Machine Learning</div>
+                    <div class="bubble">Software Engineering</div>
+                    <div class="bubble">Artificial Intelligence</div>
+                    <div class="bubble">Distributed Systems</div>
+                    <div class="bubble">Data Science</div>
+                    <div class="bubble">Natural Language Processing</div>
+
+                    <!-- Non Technical -->
+                    <div class="bubble">Design Thinking</div>
+                    <div class="bubble">Social Innovation</div>
+                    <div class="bubble">Non Profits</div>
+                    <div class="bubble">Philanthropy</div>
+                    <!-- <div class="bubble">Social Entrepreneurship</div> -->
+                </div>
+            </div>
+            <div class="row line"></div>
+            <!-- END HEADER -->
+
+            <div class="row no-margin">
+                <!-- Left Columns -->
+                <div class="col-7 left-side">
+                    <!--  -->
+                    <!-- THINGS I'VE DONE -->
+                    <!--  -->
+                    <div class="things-im-working-on">
+                        <div class="section-title">Some things I'm working on.</div>
+                        <div class="row project">
+                            <div class="project-title">Visual Introduction to Machine Learning</div>
+                            <div class="project-explanation">
+                                With intro-level algorithms and probability experience, anyone should be able to understand <strong>PAC-Learning</strong> and <strong>VC-Dimension</strong>. What’s missing are good mediums for thought on these topics.
+                            </div>
+                        </div>
+                        <div class="row project">
+                            <div class="project-title">Teaching Computers through (ROC)Stories</div>
+                            <div class="project-explanation">
+                            The recent ROCStories data set provides an opportunity to test how much “common sense understanding” our models have. I’m experimenting with everything from to <strong>SVMs</strong> to <strong>HMMs</strong> to <strong>LSTMs</strong>.
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <!-- END THINGS I"VE DONE -->
+                    <!--  -->
+
+                </div>
+                <!-- END LEFT COLUMNS -->
+
+                <!-- Right Column -->
+                <div class="col-5 right-side none" style="margin-left: 20px;">
+
+                    <!--  -->
+                    <!-- PLACES I'VE BEEN -->
+                    <!--  -->
+                    <div class="places-ive-been">
+                        <div class="section-title">Some places I've been.</div>
+                        <div class="place"> <span class="und">USC</span> B.S &amp; M.S CS '13 -'17</div>
+                        <div class="place"> <span class="und">KPCB</span> Engineering Fellow</div>
+                        <div class="place"> <span class="und">Slack</span> Application Engineering</div>
+                        <div class="place"> <span class="und">Blackbird</span> Full Stack Tech Lead</div>
+                        <div class="place"> <span class="und">Spark SC</span> Founding Team</div>
+                        <div class="place"> <span class="und">HackSC</span> Project Lead</div>
+                    </div>
+                    <!--  -->
+                    <!-- END PLACES I'VE BEEN -->
+                    <!--  -->
+
+                </div>
+                <!-- END RIGHT COLUMNS -->
+            </div>
+
         </div>
     </body>
 </html>

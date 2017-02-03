@@ -1,19 +1,117 @@
-.center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
+div {
+    font-family: 'Cormorant Garamond', serif;
+    color: black;
 }
 
-.in-progress {
-    font-family: 'Cormorant Garamond', serif;
+.container {
+    max-width: 1024px;
 }
 
-.from-calvin {
-    font-family: 'Cormorant Garamond', serif;
+.row [class^=col] {
+    margin: 0px;
+}
+
+.im-calvin {
+    margin-top: 80px;
+
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+}
+
+.goal {
+    padding: 20px 0;
+
     font-size: 16px;
-    margin-top: 80;
-    margin-left: 110px;
+    font-style: italic;
 }
+
+.line {
+    width: 100%;
+    height: 1px;
+    margin-bottom: 10px;
+
+    background-color: black;
+}
+
+.interests {
+    max-width: 780px;
+}
+
+.bubble {
+    padding: 2px 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+
+    font-size: 12px;
+    font-weight: bold;
+
+    border: solid 1px black;
+    border-radius: 10px;
+    // box-shadow: 1px 2px 6px;
+    background-color: white;
+}
+
+.section-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+}
+
+// LEFT SIDE
+
+.left-side {
+}
+
+.project {
+    font-size: 14px;
+}
+
+.project-title {
+   margin-bottom: 10px;
+
+   text-decoration: underline; 
+   font-style: italic;
+}
+
+.project-explanation {
+    margin-bottom: 20px;
+}
+
+.things-im-working-on {
+    max-width: 420px;
+}
+
+// RIGHT SIDE
+
+.right-side {
+
+}
+
+.places-ive-been {
+    font-size: 14px;
+}
+
+.place {
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.und {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: normal;
+    text-decoration: underline;
+    color: black;
+}
+
+@media (max-width: 730px) {
+  .none {
+    display: none;
+  }
+}
+
+
